@@ -1,0 +1,27 @@
+﻿<Window x:Class="PracticaCasita.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PracticaCasita"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Polyline Name="plnSol" StrokeThickness="4" Stroke="Yellow"></Polyline>
+        <Polyline Name="plnPasto1" StrokeThickness="4" Stroke="Green"></Polyline>
+        <Polyline Name="plnPasto2" StrokeThickness="4" Stroke="Green"></Polyline>
+        <Polyline Name="plnPasto3" StrokeThickness="4" Stroke="Green"></Polyline>
+        <Polyline Name="plnPasto4" StrokeThickness="4" Stroke="Green"></Polyline>
+        <Polyline Name="plnPasto5" StrokeThickness="4" Stroke="Green"></Polyline>
+        <Polyline Name="plnSuelo" StrokeThickness="4" Stroke="ForestGreen"></Polyline>
+        <Polyline Name="plnCasa" StrokeThickness="4" Stroke="Red"></Polyline>
+        <Polyline Name="plnTecho" StrokeThickness="4" Stroke="Red"></Polyline>
+        <Polyline Name="plnPuerta" StrokeThickness="4" Stroke="Brown"></Polyline>
+        <Polyline Name="plnVentana" StrokeThickness="4" Stroke="CadetBlue"></Polyline>
+        <Polyline Name="plnProteccion" StrokeThickness="4" Stroke="CadetBlue"></Polyline>
+        <Polyline Name="plnProteccion2" StrokeThickness="4" Stroke="CadetBlue"></Polyline>
+        <Polyline Name="plnTronco" StrokeThickness="4" Stroke="SandyBrown"></Polyline>
+        <Polyline Name="plnTronco2" StrokeThickness="4" Stroke="SandyBrown"></Polyline>
+        <Polyline Name="plnHojas" StrokeThickness="4" Stroke="DarkOliveGreen"></Polyline>
+    </Grid>
+</Window>
